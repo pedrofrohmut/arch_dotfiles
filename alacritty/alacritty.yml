@@ -1,0 +1,28 @@
+shell:
+  program: /bin/bash
+
+window:
+  startup_mode: Maximized
+  padding:
+    x: 4
+    y: 4
+
+background_opacity: 0.85
+
+font:
+  normal: 
+    family: Hack Nerd Font Mono
+    style: Regular
+  bold:
+    family: Hack Nerd Font Mono
+    style: Bold
+  size: 10.0
+
+import:
+  - /home/pedro/.config/alacritty/dracula.yml
+
+key_bindings:
+  - {   key: Insert,  mods: Shift,    action: Paste                 }
+  - {   key: Insert,  mods: Control,  action: Copy                  }
+  - {   key: Return,  mods: Alt,      action: ToggleFullscreen      }
+  - {   key: F10,                     action: ToggleFullscreen      }
